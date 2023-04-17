@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-15T18:51:35 EDT" name="Default suite" finished-at="2023-04-15T18:51:35 EDT" duration-ms="48">
+    <groups>
+    </groups>
+    <test started-at="2023-04-15T18:51:35 EDT" name="Default test" finished-at="2023-04-15T18:51:35 EDT" duration-ms="48">
+      <class name="ClassTests.DigitalIDTests">
+        <test-method is-config="true" signature="createMockIDs()[pri:0, instance:ClassTests.DigitalIDTests@c33b74f]" started-at="2023-04-15T18:51:35 EDT" name="createMockIDs" finished-at="2023-04-15T18:51:35 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMockIDs -->
+        <test-method signature="createNewDigitalIDValid()[pri:0, instance:ClassTests.DigitalIDTests@c33b74f]" started-at="2023-04-15T18:51:35 EDT" name="createNewDigitalIDValid" finished-at="2023-04-15T18:51:35 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDigitalIDValid -->
+        <test-method signature="getSocialCreditScoreValid()[pri:0, instance:ClassTests.DigitalIDTests@c33b74f]" started-at="2023-04-15T18:51:35 EDT" name="getSocialCreditScoreValid" finished-at="2023-04-15T18:51:35 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSocialCreditScoreValid -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ClassTests.DigitalIDTests@c33b74f]" started-at="2023-04-15T18:51:35 EDT" name="cleanUp" finished-at="2023-04-15T18:51:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ClassTests.DigitalIDTests -->
+      <class name="ClassTests.IDtests">
+        <test-method signature="creatingNewIDValid()[pri:0, instance:ClassTests.IDtests@50eac852]" started-at="2023-04-15T18:51:35 EDT" name="creatingNewIDValid" finished-at="2023-04-15T18:51:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingNewIDValid -->
+        <test-method is-config="true" signature="mockIDObject()[pri:0, instance:ClassTests.IDtests@50eac852]" started-at="2023-04-15T18:51:35 EDT" name="mockIDObject" finished-at="2023-04-15T18:51:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mockIDObject -->
+        <test-method signature="getAddressValid()[pri:0, instance:ClassTests.IDtests@50eac852]" started-at="2023-04-15T18:51:35 EDT" name="getAddressValid" finished-at="2023-04-15T18:51:35 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddressValid -->
+        <test-method is-config="true" signature="endMocks()[pri:0, instance:ClassTests.IDtests@50eac852]" started-at="2023-04-15T18:51:35 EDT" name="endMocks" finished-at="2023-04-15T18:51:35 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMocks -->
+      </class> <!-- ClassTests.IDtests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

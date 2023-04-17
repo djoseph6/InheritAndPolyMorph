@@ -32,6 +32,20 @@ public class DigitalID extends ID{
 		return id;
 	}
 	
+	public static DigitalID createNewID(ID analogID, String cryptoAss, String walletAd, int SCScore) {
+		DigitalID id= null;
+		
+		
+				String cryptoAsset = cryptoAss;
+			
+				String walletAdd = walletAd;
+				int SCS = SCScore;
+			System.out.println("Your new Social Credit Score number is "+SCS);
+			 id = new DigitalID(analogID, SCS, cryptoAsset, walletAdd);
+		
+		return id;
+	}
+	
 	private static int createSocialCreditScore() {
 		Random r = new Random();
 		int low = 300;
@@ -41,14 +55,14 @@ public class DigitalID extends ID{
 		return result;
 	}
 	
-	protected int getSocialCreditScore() {
+	public int getSocialCreditScore() {
 		return socialCreditScore;
 	}
 
 	@Override
 	public String toString() {
 		return "DigitalID [socialCreditScore=" + socialCreditScore + ", cryptoAssets=" + cryptoAssets
-				+ ", walletAddress=" + walletAddress + ", idNum=" + idNum.toString() + ", fullName=" + fullName + "]";
+				+ ", walletAddress=" + walletAddress + ", idNum=" + idNum + ", fullName=" + fullName + "]";
 	}
 	
 	
